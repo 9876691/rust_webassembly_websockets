@@ -1,6 +1,6 @@
-# hello, yew 🐳
+# Rust Wasm and Web Sockets.
 
-The goal of this repository is to play around with yew & rust webassembly.
+Connect to a bitcoin price via web sockets from rust. Uses the Yew framework.
 
 ## Usage
 
@@ -14,7 +14,4 @@ cargo web start
 
 ## Resources
 
-These articles from Sascha Grunert were helpful.  Thank you!
-
-- https://medium.com/@saschagrunert/a-web-application-completely-in-rust-6f6bdb6c4471
-- https://medium.com/@saschagrunert/lessons-learned-on-writing-web-applications-completely-in-rust-2080d0990287
+Thanks to gdax for the price data.
