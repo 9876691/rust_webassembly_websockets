@@ -1,0 +1,13 @@
+[package]
+name = "hello_yew"
+version = "0.1.0"
+authors = ["Terkwood <metaterkhorn@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+lazy_static = "1.2"
+stdweb = "0.4.7"
+failure = "0.1"
+serde = "1"
+serde_derive = "1"
+yew = { git = "https://github.com/DenisKolodin/yew", features = ["toml", "yaml", "msgpack", "cbor"] }
